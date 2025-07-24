@@ -43,10 +43,7 @@ nav{
     text-decoration: none;
     color: black;
     font-size: 20px;
-   color: #8987A1;
-   
-   
-
+    color: #8987A1;
     
 }
 .nav-links a:hover,
@@ -70,12 +67,11 @@ color: #000;
 }
 .banner-container{
     display:flex;
-    
-    margin-top: 120px;
+    margin-top: 100px;
 }
 .banner-text{
    width:50% ;
-    margin-top: 7rem;
+    margin-top: 130px;
     
 }
 .banner-text h1{

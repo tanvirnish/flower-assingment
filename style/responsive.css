@@ -1,29 +1,63 @@
-@media screen and (max-width: 576px) {
+/* MOBILE OR SMALL DEVICE */
+@media (max-width:576px) {
 /* NAVBAR RESPONSIVE START */
-
+body{
+    width: 100%;
+    
+}
+nav{
+    margin: 0;
+    width: 100%;
+}
 .nav-logo img{
     width: 63px;
     height: 38px;
     margin-left: 10px;
 }
 .nav-links a{
-   
     display: none; /* Initially hidden */
 }
  #cart{
     display: inline;
     font-size: 1rem;
 }
+.banner{
+    width: 100%;
+    margin: 0;
 }
-@media (min-width: 577px) and (max-width: 768px){
-    .nav-links a{
-        font-size: 1rem;
-        
-        
-    }
+.banner-container{
+    
+    flex-direction: column;
+    margin-top: 20px;
     
 }
-/* NAVBAR RESPONSIVE END */
+.banner-text{
+    width: 100%;
+    margin-top: 10px;
     
-/* BANNER SECTION START */
-/* BANNER SECTION END */
+}
+.banner-text h1{
+    font-size: 1.2rem;
+}
+.banner-text p{
+    font-size: 14px;
+
+    
+}
+.banner-img{
+    order: -1;
+    
+}
+.banner-img img{
+    margin-top:10px ;
+   width: 430px;
+    height:245px ;
+}
+
+
+
+
+
+
+
+}
