@@ -1,0 +1,27 @@
+@media screen and (max-width: 576px) {
+/* NAVBAR RESPONSIVE START */
+
+.nav-logo img{
+    width: 63px;
+    height: 38px;
+    margin-left: 10px;
+}
+.nav-links a{
+   
+    display: none; /* Initially hidden */
+}
+ #cart{
+    display: inline;
+    font-size: 1rem;
+}
+}
+@media (min-width: 577px) and (max-width: 768px){
+    .nav-links a{
+        font-size: 1rem;
+        
+        
+    }
+    
+}
+/* NAVBAR RESPONSIVE END */
+    
