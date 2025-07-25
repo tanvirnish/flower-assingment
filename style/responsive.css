@@ -218,7 +218,38 @@ nav{
 
 /* <!-- COLORFUL BRANCH SECTION  END --> */  
 
+/* FOOTER STARTS */
 
+.footer-container{
+    width: 100%;
+    margin: 0;
+}
+.footer-content{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.footer-logo{
+    width: 100%;
+    
+}
+.footer-content ul li a{
+    margin-left: -211px;
+}
+.social-link{
+     display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 0px;
+}
+.social-link ul li a{
+    margin-left: 2px;
+}
+.social-link ul{
+    margin-left:-187px ;
+}
+/* FOOTER END */
 
 
 

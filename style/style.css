@@ -350,3 +350,54 @@ color: #000;
 
 
 /* <!-- PLANT JOIN SECTION  END --> */ 
+/* <!-- FOOTER  SECTION  START --> */ 
+.footer-container{
+    width: 1140px;
+    margin: auto;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    border-bottom: 1px solid #ccc;
+}
+.footer-content ul li{
+    list-style: none;
+}
+
+.footer-content p{
+    font-size: 16px;
+    color: #00000065;
+    margin-top: 10px;
+}
+.footer-content ul li a{
+    display: block;
+    font-size: 16px;
+    color: #00000071;
+    text-decoration: none;
+    margin-top: 20px;
+    gap: 0px;
+}
+
+.footer-logo{
+    width: 30%;
+}
+.social-link {
+    
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: -150px;
+
+}
+.social-link li{
+    display: inline-block;
+}
+.social-link li a img{
+    width: 30px;
+    margin-right: 20px;
+ 
+}
+
+/* <!-- FOOTER  SECTION  END --> */ 
