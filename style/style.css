@@ -159,3 +159,194 @@ color: #000;
     font-size: 16px;
 }
 /* OUR PLANT  SECTION END */
+/* PLANT LOVER  SECTION START */
+
+.plant-lover-container{
+    width: 1140px;
+    margin: auto;
+    margin-top: 110px;
+}
+.plant-lover-content{
+    display: flex;
+    justify-content: space-between;
+}
+.plant-lover-img {
+   margin-top: 20px;
+    position: relative;
+}
+.plant-lover-img .hide-on-mobile {
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top: -117px;
+    right: -103px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.5));
+    
+}
+
+
+.plant-lover-img .hide-on-mobile img{
+    width: 100%;
+    height: 100%;
+}
+.plant-lover-img .hide-on-mobile img:nth-child(1){
+    margin-bottom: 20px;
+}
+.plant-lover-img .hide-on-mobile img:nth-child(2){
+    margin-bottom: 20px;
+}
+.plant-lover-text{
+    width: 50%;
+    padding: 38px 0 38px 60px;
+}
+
+.plant-lover-text h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+.plant-lover-text ul li {
+    font-size: 20px;
+    color: #00000073;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+/* PLANT LOVER  SECTION END */
+/* / <!-- PLANT JOIN SECTION  STARTS--> */
+
+.plant-join-container{
+    width: 1140px;
+    margin: auto;
+    margin-top: 110px;
+    
+}
+.joint-plant-img{
+    display: flex;
+     
+}
+.small-img {
+   
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    position: relative;
+    
+}
+.img-one,.img-two {
+    position: relative;
+    
+}
+.small-img img{  
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.big-img{
+   
+    margin-left: 20px;
+    position: relative;
+    
+}
+.big-img img{
+    width: 100%;
+    height: 100%;
+   border-radius: 20px;
+}
+.big-img .overlay-text h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.big-img .overlay-text p{
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.overlay,.overlay2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none; 
+    border-radius: 20px;
+}
+#overlay-text h2,
+#overlay-text h3 , 
+#overlay-text p{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+#overlay-text h3 {
+
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#overlay-text p {
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+/* COLORFUL BRANCH STARTS  */
+.colorful-branch-container{
+    margin-top: 100px;
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 533PX;
+   
+}
+.colorful-branch-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 100px;
+    height: 100%;
+
+}
+.content{
+    width: 840px;
+}
+.colorful-branch-text h2{
+    margin-left: 50PX;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.colorful-branch-text #email{
+    width: 67%;
+    height: 50px;
+    
+    border: none;
+    padding: 0 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.colorful-branch-text button{
+    margin-left:-10px ;
+    width: 20%;
+    height: 50px;
+    color: #fff;
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    background-color:var(--primary-color);
+}
+
+
+/* <!-- PLANT JOIN SECTION  END --> */ 

@@ -48,12 +48,13 @@ nav{
     
 }
 .banner-img{
+    width: 100%;
     order: -1;
     
 }
 .banner-img img{
     margin-top:10px ;
-   width: 430px;
+   width: 100%;
     height:245px ;
 }
 /* OUR PLANT  SECTION START */
@@ -78,7 +79,7 @@ nav{
 }
 .plant-card{
     width:171px;
-    flex: 1 1 calc(50% - 20px);
+    flex: 1 1 calc(50% - 10px);
     justify-content: center;
 }
 
@@ -97,9 +98,128 @@ nav{
 .plant-card .btn{
     width: 171px;
     padding: 19px 30px;
-
     font-size: 14px;
 }
+.plant-lover-img img{
+    width: 100%;
+    height: auto;
+}
+.plant-lover-img .hide-on-mobile{
+    display: none;
+}
+.plant-lover-container{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plant-lover-title{
+    text-align: center;
+    padding: 10px 20px;
+}
+.plant-lover-title h1{
+    font-size: 1.5rem;
+    padding: 10px 20px;
+}
+.plant-lover-content{
+    flex-direction: column;
+    align-items: center;
+}
+.plant-lover-text{
+    width: 100%;
+    padding:0;
+}
+.plant-lover-text h1{
+    font-size: 1.5rem;
+    padding: 10px 20px;
+}
+.hide-on-mobile{
+    display: none
+}
+.plant-lover-text ul li {
+    font-size: 14px;
+    padding: 0 10px;
+}
+/* <!-- PLANT JOIN SECTION  START-->
+ */  
+ .plant-join-container{
+    width: 100%;
+    margin: 0;
+   
+}
+.joint-plant-img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 0;
+    
+}
+.small-img{
+    
+    gap: 10px;
+    width: 100%;
+}
+.small-img img{
+    width: 100%;
+    height: 100%;
+}
+.big-img{
+    margin:20px 0;
+    overflow: hidden;
+    position: relative;
+}
+.big-img img{
+    width: 100%;
+    height: 100%;
+   
+}
+.big-img h2{
+    font-size: 20px;
+}
+
+.overlay,.overlay2{
+    
+    height: 98%;
+    
+}
+
+
+/* <!-- PLANT JOIN SECTION  END --> */  
+/* <!-- COLORFUL BRANCH SECTION  START --> */
+.colorful-branch-container{
+    margin-top: 20px;
+    height: 400px;
+    background-position: top;
+    width: 100%;
+}
+
+.content{
+    width: 321px;
+}
+.content h2{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.content p{
+    font-size: 14px;
+}
+.colorful-branch-text #email{
+      width: 60%;
+    font-size: 14px;
+    height: 30px;
+    
+}
+.colorful-branch-text button{
+    height: 30px;
+    font-size: 14px;
+    width: 30%;
+}
+
+/* <!-- COLORFUL BRANCH SECTION  END --> */  
+
+
+
 
 
 }
