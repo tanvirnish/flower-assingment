@@ -16,6 +16,11 @@
     --primary-color: #E95A08;
     
 }
+h1 span{
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    color:var(--primary-color);
+}
 
 /* MAIN CSS START  */
 body{
@@ -99,3 +104,58 @@ color: #000;
    
 }
 /* BANNER SECTION END */
+/* OUR PLANT  SECTION START */
+.our-plant-container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+}
+.our-plant-title {
+    text-align: center;
+    padding: 10px 182px;
+    margin-bottom: 20px;
+}
+.our-plant-title h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+
+}
+.our-plant-title p{
+    font-size: 20px;
+    color: #00000073;
+}
+
+.our-plant-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.plant-card{
+    text-align: center;
+}
+.plant-card p{
+    font-size: 22px;
+    color: #000000;
+    margin-top: 20px;
+}
+.plant-card h3{
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+    margin: 10px 0 20px 0;
+}
+.plant-card .btn{
+    background-color: var(--primary-color);
+    width: 100%;
+    font-weight: semibold;
+    font-size: 16px;
+    color: #fff;
+    padding: 19px 80px;
+    border: none;
+    font-size: 16px;
+}
+/* OUR PLANT  SECTION END */

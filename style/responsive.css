@@ -33,11 +33,14 @@ nav{
 }
 .banner-text{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 10px 10px;
     
 }
 .banner-text h1{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+}
+.banner-text h1 span{
+    font-size: 1.5rem;
 }
 .banner-text p{
     font-size: 14px;
@@ -53,11 +56,50 @@ nav{
    width: 430px;
     height:245px ;
 }
+/* OUR PLANT  SECTION START */
+.our-plant-container{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our-plant-title {
+    text-align: center;
+    padding: 10px 20px;
+}
+.our-plant-title h1{
+    font-size: 1.5rem;
+    padding: 10px 20px;
+}
+.our-plant-title p{
+    font-size: 14px;
+    padding: 0 20px;
+}
+.plant-card{
+    width:171px;
+    flex: 1 1 calc(50% - 20px);
+    justify-content: center;
+}
 
+.plant-card img{
+    width: 171px;
+    height: auto;
+}
+.plant-card p{
+    font-size: 16px;
+}
 
+.plant-card h3{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.plant-card .btn{
+    width: 171px;
+    padding: 19px 30px;
 
-
-
+    font-size: 14px;
+}
 
 
 }
